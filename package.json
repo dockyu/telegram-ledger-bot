@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "build": "zip -r dist/telegram-ledger-bot.zip * -x 'node_modules/*' 'dist/*'"
+    "build": "zip -r dist/project.zip src package.json package-lock.json"
   },
   "author": "Yen-Yu Chen",
   "license": "MIT",
